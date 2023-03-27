@@ -1,4 +1,4 @@
-public class Main {
+public class Ex1 {  // Class Hierarchy
     public static void main(String[] args) {
         Session session = new Session();
 

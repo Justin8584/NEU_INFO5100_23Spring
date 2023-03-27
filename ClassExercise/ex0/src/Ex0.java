@@ -1,4 +1,4 @@
-public class Main {
+public class Ex0 {  // Java Object-Oriented Programming
     public static void main(String[] args) {
         Laptop laptop = new Laptop(7654, "Space Gray", 14, "M1 Chip", 512, 16, 2019, 9999);
         System.out.println(laptop);

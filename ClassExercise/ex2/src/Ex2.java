@@ -1,4 +1,4 @@
-public class Main {
+public class Ex2 {  // Advanced Java OOP
     public static void main(String[] args) {
 
         Shape.color = "red";
