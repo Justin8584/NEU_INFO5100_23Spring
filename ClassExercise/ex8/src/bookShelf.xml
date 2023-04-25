@@ -1,0 +1,26 @@
+<BookShelf>
+    <Book>
+        <title>The Catcher in the Rye</title>
+        <publishedYear>1951</publishedYear>
+        <numberOfPages>224</numberOfPages>
+        <authors>
+            <author>J. D. Salinger</author>
+        </authors>
+    </Book>
+    <Book>
+        <title>To Kill a Mockingbird</title>
+        <publishedYear>1960</publishedYear>
+        <numberOfPages>281</numberOfPages>
+        <authors>
+            <author>Harper Lee</author>
+        </authors>
+    </Book>
+    <Book>
+        <title>The Great Gatsby</title>
+        <publishedYear>1925</publishedYear>
+        <numberOfPages>180</numberOfPages>
+        <authors>
+            <author>F. Scott Fitzgerald</author>
+        </authors>
+    </Book>
+</BookShelf>

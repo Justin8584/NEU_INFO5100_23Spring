@@ -1,0 +1,30 @@
+{
+  "BookShelf": {
+    "Book": [
+      {
+        "title": "The Catcher in the Rye",
+        "publishedYear": "1951",
+        "numberOfPages": "224",
+        "authors": {
+          "author": "J. D. Salinger"
+        }
+      },
+      {
+        "title": "To Kill a Mockingbird",
+        "publishedYear": "1960",
+        "numberOfPages": "281",
+        "authors": {
+          "author": "Harper Lee"
+        }
+      },
+      {
+        "title": "The Great Gatsby",
+        "publishedYear": "1925",
+        "numberOfPages": "180",
+        "authors": {
+          "author": "F. Scott Fitzgerald"
+        }
+      }
+    ]
+  }
+}
