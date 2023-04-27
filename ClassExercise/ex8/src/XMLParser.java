@@ -12,7 +12,7 @@ public class XMLParser {
             // Read the XML file
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
-            File inputFile = new File("/ex8/src/bookShelf.xml");
+            File inputFile = new File("books.xml");
             Document doc = builder.parse(inputFile);
 
             // Loop through the books and print their title and author
