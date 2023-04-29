@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="javafx-sdk-17.0">
+    <CLASSES>
+      <root url="file:///Library/Java/JavaVirtualMachines/im4java-1.4.0" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file:///Library/Java/JavaVirtualMachines/im4java-1.4.0/doc/api" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-17.0.7" />
+      <root url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-20.0.1" />
+    </SOURCES>
+    <jarDirectory url="file:///Library/Java/JavaVirtualMachines/im4java-1.4.0" recursive="false" />
+    <jarDirectory url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-17.0.7" recursive="false" type="SOURCES" />
+    <jarDirectory url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-20.0.1" recursive="false" type="SOURCES" />
+  </library>
+</component>

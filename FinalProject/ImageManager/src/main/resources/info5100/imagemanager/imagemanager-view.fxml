@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<!--JavaFx for Final Project GUI, also the View of MVC Design Pattern-->
+<AnchorPane prefHeight="398.0" prefWidth="354.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="info5100.imagemanager.ImageManagerController">
+   <children>
+      <ImageView fx:id="thumbnail" fitHeight="100.0" fitWidth="100.0" layoutX="28.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="load" layoutX="28.0" layoutY="182.0" mnemonicParsing="false" onAction="#loadImage" text="Open..." />
+      <ChoiceBox fx:id="choiceBox" layoutX="28.0" layoutY="257.0" prefWidth="200">
+         <items>
+            <FXCollections fx:factory="observableArrayList">
+               <String fx:value="jpeg" />
+               <String fx:value="png" />
+               <String fx:value="bmp" />
+               <String fx:value="gif" />
+               <String fx:value="tiff" />
+            </FXCollections>
+         </items>
+      </ChoiceBox>
+      <Button fx:id="convert" layoutX="26.0" layoutY="305.0" mnemonicParsing="false" onAction="#convertImage" prefHeight="26.0" prefWidth="74.0" text="Convert" />
+      <Button fx:id="save" layoutX="178.0" layoutY="305.0" mnemonicParsing="false" onAction="#saveImage" prefHeight="26.0" prefWidth="56.0" text="Save" />
+      <Text layoutX="28.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Image Viewer" />
+      <Text layoutX="177.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Image Information" />
+      <Text layoutX="179.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Height" />
+      <Text layoutX="179.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Width" />
+      <Text layoutX="179.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Camera" />
+      <Text layoutX="179.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Location" />
+      <TextField fx:id="textHeight" layoutX="234.0" layoutY="63.0" prefHeight="26.0" prefWidth="100.0" />
+      <TextField fx:id="textWidth" layoutX="234.0" layoutY="101.0" prefHeight="26.0" prefWidth="100.0" />
+      <TextField fx:id="textCamera" layoutX="233.0" layoutY="138.0" prefHeight="26.0" prefWidth="100.0" />
+      <TextField fx:id="textLocation" layoutX="234.0" layoutY="173.0" prefHeight="26.0" prefWidth="100.0" />
+      <Text layoutX="26.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose Convert Format:" />
+   </children>
+</AnchorPane>

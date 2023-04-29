@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="im4java-1.4">
+    <CLASSES>
+      <root url="file:///Library/Java/JavaVirtualMachines/im4java-1.4.0" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file:///Library/Java/JavaVirtualMachines/im4java-1.4.0/doc/api" />
+    </JAVADOC>
+    <SOURCES />
+    <jarDirectory url="file:///Library/Java/JavaVirtualMachines/im4java-1.4.0" recursive="false" />
+  </library>
+</component>
